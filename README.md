@@ -1,1 +1,0 @@
-# sametbaysoyx.github.io
