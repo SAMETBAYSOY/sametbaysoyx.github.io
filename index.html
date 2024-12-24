@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Oyun Haberleri</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <h1>Oyun Haberleri</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Anasayfa</a></li>
+                    <li><a href="#news">Haberler</a></li>
+                    <li><a href="#reviews">İncelemeler</a></li>
+                    <li><a href="#comments">Yorumlar</a></li>
+                    <li><a href="#contact">Bize Ulaşın</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content Section -->
+    <section class="main-content" id="news">
+        <div class="container">
+            <h2>Son Oyun Haberleri</h2>
+            <div class="news-cards">
+                <!-- Haber 1 -->
+                <div class="news-card">
+                    <img src="news-image1.jpg" alt="Game News 1">
+                    <h3>Oyun X Çıkıyor!</h3>
+                    <p>Oyun X hakkında yeni detaylar ortaya çıktı. Bu oyun hakkında bilmeniz gereken her şey burada.</p>
+                    <a href="#">Devamını Oku</a>
+                </div>
+                <!-- Haber 2 -->
+                <div class="news-card">
+                    <img src="news-image2.jpg" alt="Game News 2">
+                    <h3>Yılın En İyi Oyunu</h3>
+                    <p>2024 yılının en iyi oyunları hakkında yapılan oylama sonuçlandı. Kazanan oyun belli oldu!</p>
+                    <a href="#">Devamını Oku</a>
+                </div>
+                <!-- Haber 3 -->
+                <div class="news-card">
+                    <img src="news-image3.jpg" alt="Game News 3">
+                    <h3>Yeni Oyun Güncellemesi Yayınlandı</h3>
+                    <p>Popüler oyunlardan birinin yeni güncellemesi, oyuncuları memnun etti. Güncelleme ile gelen yenilikler büyük bir ilgi gördü.</p>
+                    <a href="#">Devamını Oku</a>
+                </div>
+                <!-- Add more news cards as needed -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews Section -->
+    <section class="reviews" id="reviews">
+        <div class="container">
+            <h2>Oyun İncelemeleri</h2>
+            <p>Burada, popüler oyunların incelemelerini bulabilirsiniz. Oyuncuların görüşleri, oyun mekanikleri ve grafikler hakkında detaylı yorumlar yapılıyor.</p>
+            <div class="review-card">
+                <h3>Oyun A İncelemesi</h3>
+                <p>Oyun A, grafikleri ve hikaye anlatımı ile öne çıkıyor. Ancak bazı teknik aksaklıklar yaşanabiliyor. İşte detaylı incelememiz...</p>
+                <a href="#">Devamını Oku</a>
+            </div>
+            <!-- Add more review cards as needed -->
+        </div>
+    </section>
+
+    <!-- Comments Section -->
+    <section class="comments" id="comments">
+        <div class="container">
+            <h2>Yorumlar</h2>
+            <p>Burada oyun haberlerine, incelemelere veya sitenizdeki diğer içeriklere yorum bırakabilirsiniz. Fikirlerinizi bizimle paylaşın!</p>
+            <form action="#" method="post">
+                <textarea name="comment" placeholder="Yorumunuzu buraya yazın..." rows="5"></textarea>
+                <button type="submit">Yorum Yap</button>
+            </form>
+            <!-- Example comment -->
+            <div class="comment">
+                <p><strong>Ahmet:</strong> Oyun X gerçekten harika! Yeni güncellemeleri sabırsızlıkla bekliyorum!</p>
+            </div>
+            <!-- Add more comments as necessary -->
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2>Bize Ulaşın</h2>
+            <p>Herhangi bir sorunuz veya öneriniz varsa, bizimle iletişime geçebilirsiniz. Aşağıdaki formu doldurarak bize ulaşabilirsiniz.</p>
+            <form action="#" method="post">
+                <input type="text" name="name" placeholder="Adınız" required>
+                <input type="email" name="email" placeholder="E-posta adresiniz" required>
+                <textarea name="message" placeholder="Mesajınızı buraya yazın..." rows="5" required></textarea>
+                <button type="submit">Gönder</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Oyun Haberleri | Tüm Hakları Saklıdır.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
